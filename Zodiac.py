@@ -23,15 +23,15 @@ def validate_input(day, month):
 
 def get_sign(day, month):
     if (month == "january" and day >= 21) or (month == "february" and day <= 19):
-        sign = "Acuario"
+        sign = "Aquarius"
     elif month == "february" or (month == "march" and day <= 20):
-        sign = "Piscis"
+        sign = "Pisces"
     elif month == "march" or (month == "april" and day <= 20):
         sign = "Aries"
     elif month == "april" or (month == "may" and day <= 20):
-        sign = "Tauro"
+        sign = "Taurus"
     elif month == "may" or (month == "june" and day <= 21):
-        sign = "Geminis"
+        sign = "Gemini"
     elif month == "june" or (month == "july" and day <= 22):
         sign = "Cancer"
     elif month == "july" or (month == "august" and day <= 23):
@@ -41,11 +41,11 @@ def get_sign(day, month):
     elif month == "september" or (month == "october" and day <= 22):
         sign = "Libra"
     elif month == "october" or (month == "november" and day <= 22):
-        sign = "Escorpio"
+        sign = "Scorpio"
     elif month == "november" or (month == "december" and day <= 21):
-        sign = "Sagitario"
+        sign = "Sagittarius"
     else:
-        sign = "Capricornio"
+        sign = "Capricorn"
 
     return sign
 
